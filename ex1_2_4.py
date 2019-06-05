@@ -8,7 +8,7 @@ seconds = int(input('Seconds: '))
 print('What is your average pace?')
 
 # seconds per mile
-average_pace = round((minutes * 68 + seconds) / (kilometer_race / 1.61), 2)
+average_pace = round((minutes * 60 + seconds) / (kilometer_race / 1.61), 2)
 print('The average pace is {} seconds per mile.'.format(average_pace))
 
 print('What is your average speed?')
